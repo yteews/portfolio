@@ -1,0 +1,164 @@
+@media only screen and (max-width:1024px) {
+    .nav {}
+
+    .detail {}
+
+    .task {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .tech {
+
+        grid-template-columns: repeat(4, 1fr);
+        height: auto;
+
+    }
+
+    .task {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+
+    }
+
+    .newo {
+        width: 70vw;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .detail {
+        /* margin: 0px 2px; */
+        /* height: 400px;
+        width: 101px; */
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr); */
+        /* border: 1px solid rgb(224, 181, 10); */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu1 {
+        display: block;
+    }
+
+    .but {
+         /* margin: 10px 10px 0px 142px; s */
+    }
+
+    .but input {
+        width: 101px;
+
+    }
+    .my-photo{
+        /* border: 1px solid rgb(224, 10, 10); */
+        /* border: 2px solid rgb(0, 255, 60);
+        background-color: rgb(83, 250, 161); */
+        /* border-radius: 37% 63% 68% 32% / 61% 35% 65% 39%  ; */
+        
+    }
+    .info-us {}
+
+    .info-us h1 {
+        position: relative;
+        /* margin: 0px 10px 0px 0px; */
+        /* font-size: 10px; */
+    }
+
+    .about-photo  {
+        /* border: 1px solid rgb(224, 10, 10); */
+    }
+
+    .menu {
+        display: none;
+
+    }
+
+    .info {
+        /* height: 450px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 1px solid rgb(28, 4, 247); */
+    }
+
+    .info h1 {
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        /* margin-left: 117px; */
+    }
+    .but a{
+        
+    }
+
+    .nav {
+        justify-content: space-between;
+        padding: 2px;
+        border: 1px solid white;
+        margin: 5px 0px;
+    }
+
+    .my-photo img {
+        height: 263px;
+        /* margin: 30px 76px 0px 0px; */
+    }
+
+    .tech {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .newo img {
+        width: 250px;
+        height: 150px;
+        border-radius: 5px;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-photo{
+        
+        /* border: 2px solid orange; */
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        
+    }
+    .about-photo img{
+        width: 300px;
+        height: 300px;
+    }
+    .info-us h1{
+        padding: 20px;
+        font-size: 18px;
+    }
+    .info-us {
+        gap: 0px;
+
+    }
+    .butt{
+    margin:0px;
+    margin-bottom: 30px;
+    }
+    .detail{
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr); */
+    }
+}
